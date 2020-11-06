@@ -1,0 +1,185 @@
+LOCUS       LM42_Repressor_mScarlet        3740 bp    DNA     circular UNK 05-NOV-2020
+DEFINITION  using LM2 sequence from 2/28/20.
+ACCESSION   id?
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+FEATURES             Location/Qualifiers
+     rep_origin      40..657
+                     /direction="RIGHT"
+                     /note="Medium copy ColE1 origin of  replication; color:
+                     #ffff00"
+                     /X-Transferred_From="pUC High Copy Cole1 ori"
+                     /X-Transferred_Similarity="99.84%"
+                     /modified_by="Andrey"
+                     /Transferred_From="Cole1 Medium Copy"
+                     /Transferred_Similarity="100.00%"
+                     /label="Cole1 Medium Copy"
+     promoter        40..68
+                     /Color="#ffffff"
+                     /Transferred_From="RNAII_promoter"
+                     /Transferred_Similarity="100.00%"
+                     /label="RNAII promoter"
+     promoter        complement(193..222)
+                     /Color="#ffffff"
+                     /Transferred_From="RNA_I_promoter"
+                     /Transferred_Similarity="100.00%"
+                     /label="RNA I promoter"
+     primer_bind     complement(250..271)
+                     /Sequence="TGGTAACAGGATTAGCAGAGCG"
+                     /%GC="50.0"
+                     /Transferred_From="ASS_mc1chk.cole1.REV"
+                     /Transferred_Similarity="100.00%"
+                     /label="ASS_mc1chk.cole1.REV"
+     primer_bind     550..568
+                     /Sequence="TAGTCCTGTCGGGTTTCGC"
+                     /Hairpin_Tm="39.1"
+                     /Tm="59.4"
+                     /Self_Dimer_Tm="None"
+                     /%GC="57.9"
+                     /created_by="primer3"
+                     /Transferred_From="ASS_Cole1.FOR"
+                     /Transferred_Similarity="100.00%"
+                     /label="Cole1.FOR"
+     Scar            664..667
+                     /label="A"
+     promoter        668..718
+                     /created_by="User"
+                     /modified_by="User"
+                     /label="J23150"
+     misc_feature    692
+                     /Original_Bases
+                     /label
+                     /note="Geneious type: Editing History Insertion"
+     Scar            719..722
+                     /label="B"
+     RBS             723..740
+                     /created_by="andrey"
+                     /label="lacIRBS1"
+     Scar            741..744
+                     /label="C"
+     CDS             742..1821
+                     /Genetic_code="Standard"
+                     /Reading_frame=2
+                     /created_by="ORF Finder"
+                     /mutations="Q18M, A43V, F161Y"
+                     /modified_by="Andrey"
+                     /Transferred_From="C72m - LacIAM_Q18M translation"
+                     /Transferred_Translation_Similarity="100.00%"
+                     /label="LacIAM"
+     Scar            1824..1827
+                     /label="D"
+     RBS             1831..1851
+                     /created_by="Andrey"
+                     /Transferred_From="BBa_B0034"
+                     /Transferred_Similarity="100.00%"
+                     /label="B0034 1x RBS"
+     CDS             1853..2554
+                     /created_by="User"
+                     /Color="#ff3333"
+                     /modified_by="Andrey"
+                     /Transferred_From="C59m - mScarlet translation"
+                     /Transferred_Translation_Similarity="100.00%"
+                     /label="mScarlet"
+     terminator      2558..2610
+                     /created_by="Andrey"
+                     /Color="#ffffff"
+                     /modified_by="Andrey"
+                     /Transferred_From="fivetermg"
+                     /Transferred_Similarity="100.00%"
+                     /label="T2m/T19m ECK120033736"
+     Scar            2619..2622
+                     /label="E"
+     promoter        2670..2760
+                     /Color="#ffffff"
+                     /Transferred_From="cat_promoter_(2)"
+                     /Transferred_Similarity="100.00%"
+                     /label="cat promoter"
+     primer_bind     complement(2746..2768)
+                     /Sequence="GCTTCCTTAGCTCCTGAAAATCT"
+                     /Hairpin_Tm="46.8"
+                     /Tm="58.5"
+                     /Self_Dimer_Tm="None"
+                     /%GC="43.5"
+                     /created_by="primer3"
+                     /Transferred_From="ASS_Chlor.REV"
+                     /Transferred_Similarity="100.00%"
+                     /label="Chlor.REV"
+     CDS             2773..3432
+                     /Transferred_Translation="MEKKITGYTTVDISQWHRKEHFEAFQSVAQCT
+                     YNQTVQLDITAFLKTVKKNKHKFYPAFIHILARLMNAHPEFRMAMKDGELVIWDSVHP
+                     CYTVFHEQTETFSSLWSEYHDDFRQFLHIYSQDVACYGENLAYFPKGFIENMFFVSAN
+                     PWVSFTSFDLNVANMDNFFAPVFTMGKYYTQGDKVLMPLAIQVHHAVCDGFHVGRMLN
+                     ELQQYCDEWQGGA"
+                     /Color="#ccffcc"
+                     /modified_by="Andrey"
+                     /Transferred_From="CmR"
+                     /Transferred_Similarity="100.00%"
+                     /label="Chloramphenicol Resistance"
+     Scar            3741..4
+                     /label="F"
+ORIGIN      
+        1 cgctgcgtca gaccccgtag aaaagatcaa aggatcttct tgagatcctt tttttctgcg
+       61 cgtaatctgc tgcttgcaaa caaaaaaacc accgctacca gcggtggttt gtttgccgga
+      121 tcaagagcta ccaactcttt ttccgaaggt aactggcttc agcagagcgc agataccaaa
+      181 tactgttctt ctagtgtagc cgtagttagg ccaccacttc aagaactctg tagcaccgcc
+      241 tacatacctc gctctgctaa tcctgttacc agtggctgct gccagtggcg ataagtcgtg
+      301 tcttaccggg ttggactcaa gacgatagtt accggataag gcgcagcggt cgggctgaac
+      361 ggggggttcg tgcacacagc ccagcttgga gcgaacgacc tacaccgaac tgagatacct
+      421 acagcgtgag ctatgagaaa gcgccacgct tcccgaaggg agaaaggcgg acaggtatcc
+      481 ggtaagcggc agggtcggaa caggagagcg cacgagggag cttccagggg gaaacgcctg
+      541 gtatctttat agtcctgtcg ggtttcgcca cctctgactt gagcgtcgat ttttgtgatg
+      601 ctcgtcaggg gggcggagcc tgtggaaaaa cgccagcaac gcggcctttt tacggttcct
+      661 ggcggagtgc tgttccgctg ggcatgcttt acggctagct cagtcctagg tattatgcta
+      721 ctgaaagaat agagagacta aatgaaacca gtaacgttat acgatgtcgc agagtatgcc
+      781 ggtgtctctt atatgaccgt ttcccgcgtg gtgaaccagg ccagccacgt ttctgcgaaa
+      841 acgcgggaaa aagtggaagc ggcgatggtg gagctgaatt acattcccaa ccgcgtggca
+      901 caacaactgg cgggcaaaca gtcgttgctg attggcgttg ccacctccag tctggccctg
+      961 cacgcgccgt cgcaaattgt cgcggcgatt aaatctcgcg ccgatcaact gggtgccagc
+     1021 gtggtggtgt cgatggtaga acgaagcggc gtcgaagcct gtaaagcggc ggtgcacaat
+     1081 cttctcgcgc aacgcgtcag tgggctgatc attaactatc cgctggatga ccaggatgcc
+     1141 attgctgtgg aagctgcctg cactaatgtt ccggcgttat ttcttgatgt ctctgaccag
+     1201 acacccatca acagtattat ttactcccat gaggacggta cgcgactggg cgtggagcat
+     1261 ctggtcgcat tgggtcacca gcaaatcgcg ctgttagcgg gcccattaag ttctgtctcg
+     1321 gcgcgtctgc gtctggctgg ctggcataaa tatctcactc gcaatcaaat tcagccgata
+     1381 gcggaacggg aaggcgactg gagtgccatg tccggttttc aacaaaccat gcaaatgctg
+     1441 aatgagggca tcgttcccac tgcgatgctg gttgccaacg atcagatggc gctgggcgca
+     1501 atgcgcgcca ttaccgagtc cgggctgcgc gttggtgcgg atatctcggt agtgggatac
+     1561 gacgataccg aagatagctc atgttatatc ccgccgttaa ccaccatcaa acaggatttt
+     1621 cgcctgctgg ggcaaaccag cgtggaccgc ttgctgcaac tctctcaggg ccaggcggtg
+     1681 aagggcaatc agctgttgcc agtctcactg gtgaaaagaa aaaccaccct ggcgcccaat
+     1741 acgcaaaccg cctctccccg cgcgttggcc gattcattaa tgcagctggc acgacaggtt
+     1801 tcccgactgg aaagcgggca gtgaggtact agagaaagag gagaaatact aaatgatggt
+     1861 gagcaagggc gaggcagtga tcaaggagtt catgcggttc aaggtgcaca tggagggctc
+     1921 catgaacggc cacgagttcg agatcgaggg cgagggcgag ggccgcccct acgagggcac
+     1981 ccagaccgcc aagctgaagg tgaccaaggg tggccccctg cccttctcct gggacatcct
+     2041 gtcccctcag ttcatgtacg gctccagggc cttcaccaag caccccgccg acatccccga
+     2101 ctactataag cagtccttcc ccgagggctt caagtgggag cgcgtgatga acttcgagga
+     2161 cggcggcgcc gtgaccgtga cccaggacac ctccctggag gacggcaccc tgatctacaa
+     2221 ggtgaagctc cgcggcacca acttccctcc tgacggcccc gtaatgcaga agaaaacaat
+     2281 gggctgggaa gcgtccaccg agcggttgta ccccgaggac ggcgtgctga agggcgacat
+     2341 taagatggcc ctgcgcctga aggacggcgg ccgctacctg gcggacttca agaccaccta
+     2401 caaggccaag aagcccgtgc agatgcccgg cgcctacaac gtcgaccgca agttggacat
+     2461 cacctcccac aacgaggact acaccgtggt ggaacagtac gaacgctccg agggccgcca
+     2521 ctccaccggc ggcatggacg agctgtacaa gaggtctaac gcatgagaaa gcccccggaa
+     2581 gatcaccttc cgggggcttt tttattgcgc ccttgagagc ttgttgatac cgggaagccc
+     2641 tgggccaact tttggcgaaa atgagacgtt gatcggcacg taagaggttc caactttcac
+     2701 cataatgaaa taagatcact accgggcgta ttttttgagt tatcgagatt ttcaggagct
+     2761 aaggaagcta aaatggagaa aaaaatcact ggatatacca ccgttgatat atcccaatgg
+     2821 catcgtaaag aacattttga ggcatttcag tcagttgctc aatgtaccta taaccagacc
+     2881 gttcagctgg atattacggc ctttttaaag accgtaaaga aaaataagca caagttttat
+     2941 ccggccttta ttcacattct tgcccgcctg atgaatgctc atccggaatt ccgtatggca
+     3001 atgaaagacg gtgagctggt gatatgggat agtgttcacc cttgttacac cgttttccat
+     3061 gagcaaactg aaacgttttc atcgctctgg agtgaatacc acgacgattt ccggcagttt
+     3121 ctacacatat attcgcaaga tgtggcgtgt tacggtgaaa acctggccta tttccctaaa
+     3181 gggtttattg agaatatgtt tttcgtctca gccaatccct gggtgagttt caccagtttt
+     3241 gatttaaacg tggccaatat ggacaacttc ttcgcccccg ttttcaccat gggcaaatat
+     3301 tatacgcaag gcgacaaggt gctgatgccg ctggcgattc aggttcatca tgccgtctgt
+     3361 gatggcttcc atgtcggcag aatgcttaat gaattacaac agtactgcga tgagtggcag
+     3421 ggcggggcgt aattttttta aggcagttat tggtgccctt aaacgcctgg tgctacgcct
+     3481 gaataagtga taataagcgg atgaatggca gaaattcgaa agcaaattcg acccggtcgt
+     3541 cggttcaggg cagggtcgtt aaatagccgc ttatgtctat tgctggttta ccggtttatt
+     3601 gactaccgga agcagtgtga ccgtgtgctt ctcaaatgcc tgaggccagt ttgctcaggc
+     3661 tctccccgtg gaggtaataa ttgacgatat gatcatttat tctgcctccc agagcctgat
+     3721 aaaaacggtt agcgcttcgt
+//
