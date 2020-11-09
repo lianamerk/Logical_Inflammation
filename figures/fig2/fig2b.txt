@@ -1,0 +1,16 @@
+% I used http://www.tlhiv.org/ltxpreview/ ! Load: tabularx, lipsum, amsmath
+
+\setlength{\extrarowheight}{3pt}
+\begin{tabular}{|l|l|l|l|l|l|}
+\cline{3-6}
+\multicolumn{1}{c}{} & \multicolumn{1}{c|}{} & \multicolumn{2}{c|}{\textbf{\large Calculated}}& \multicolumn{2}{c|}{\bf{\large k\textsubscript{off} $\frac{1}{s}$} }\\[0.4ex]
+\hline
+\textbf{Strain} & Fold Change& rbsS & rbsR & rbsS & rbsR\\ 
+\hline
+Very Low (LM15) &2.2   & 23&42&20&15\\
+Low (LM14) & 7.1       & 15&23&12&8\\
+Medium (LM18) & 11.5   & 13&132&11&6\\
+High (LM19) & 13.8     & 93&47&10&5\\
+
+\hline
+\end{tabular}
